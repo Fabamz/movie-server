@@ -1,0 +1,257 @@
+:root {
+  --main-bg-color: rgb(253, 253, 255);
+  --primary-color: #1f3a93;
+  --accent-color: #f5b041;
+  --header-bg: rgb(95, 91, 99);
+  --footer-bg: #a3b8e2;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--main-bg-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "header header header header header header header header header header header header"
+    "about about about about about about about about about about about about"
+    "projects projects projects projects projects projects projects projects projects projects projects projects"
+    "experience experience experience experience experience experience experience experience experience experience experience experience"
+    "education education education education education education education education education education education education"
+    "blog blog blog blog blog blog blog blog blog blog blog blog"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+  gap: 20px;
+  padding: 20px;
+}
+
+header {
+  grid-area: header;
+  background-color: var(--header-bg);
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: rgb(34, 178, 89);
+  color: blue;
+  padding: 5px 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#about {
+  grid-area: about;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #a3b8e2;
+  padding: 20px;
+  border-radius: 5px;
+}
+.about-me,
+.skills {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about-me h2,
+.skills h2 {
+  color: darkblue;
+}
+
+.about-me img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 0 4px 10px rgba(225, 225, 225, 0.1);
+}
+.about-details {
+  overflow: hidden;
+  margin-left: 150px;
+}
+
+.profile-name {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.5rem;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-title {
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(102, 102, 102);
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.skills-list {
+  list-style: none;
+}
+.skills-list li {
+  margin-bottom: 15px;
+}
+
+#projects {
+  grid-area: projects;
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 5px;
+}
+#projects h2 {
+  color: darkblue;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid rgb(235, 233, 240);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.box img {
+  width: 50%;
+  margin-top: 10px;
+}
+
+#experience {
+  grid-area: experience;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#experience h2,
+h3 {
+  color: darkblue;
+}
+.jobexperience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.jobexperience ul {
+  list-style: none;
+}
+.jobexperience ul li {
+  margin-bottom: 15px;
+}
+.job1,
+.job2 {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#education {
+  grid-area: education;
+  background-color: rgba(225, 225, 225, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.education-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.education-content h2 {
+  color: darkblue;
+}
+.education-content ul {
+  list-style: none;
+}
+.education-content ul li {
+  margin-bottom: 15px;
+}
+
+#blog {
+  grid-area: blog;
+  background-color: rgb(255, 228, 196, 0.4);
+  padding: 20px;
+  border-radius: 5px;
+}
+#blog h2 {
+  color: darkblue;
+}
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--footer-bg);
+}
+
+footer img {
+  display: inline-block;
+  width: 30px;
+  margin: 0 20px;
+}
+
+@media (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "about"
+      "projects"
+      "experience"
+      "education"
+      "blog"
+      "footer";
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .jobexperience {
+    grid-template-columns: 1fr;
+  }
+
+  .education-content {
+    grid-template-columns: 1fr;
+  }
+}

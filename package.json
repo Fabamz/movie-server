@@ -1,0 +1,22 @@
+{
+  "name": "movie-server",
+  "version": "1.0.0",
+  "description": "Server for movie portfolio deployed on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'", 
+    "start": "node index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5", 
+    "express": "^4.21.1" 
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Adeyemi Bamidele",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.x"
+  }
+}

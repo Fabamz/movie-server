@@ -1,0 +1,164 @@
+{
+  "movies": [
+    {
+      "title": "Wicked",
+      "genre": "Drama, Fantasy, Romance",
+      "pgRating": "PG-13",
+      "description": "When ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda, the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg"
+    },
+    {
+      "title": "Moana 2",
+      "genre": "Animation, Adventure, Family, Comedy",
+      "pgRating": "PG-13",
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/yh64qw9mgXBvlaWDi7Q9tpUBAvH.jpg"
+    },
+    {
+      "title": "Conclave",
+      "genre": "Mystery, Thriller, Drama",
+      "pgRating": "PG-13",
+      "description": "After the unexpected death of the Pope, Cardinal Lawrence is tasked with managing the covert and ancient ritual of electing a new one. Sequestered in the Vatican with the Catholic Church’s most powerful leaders until the process is complete, Lawrence finds himself at the center of a conspiracy that could lead to its downfall.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/1j9r59YQ0a7kM9AKX9MCvf90QNS.jpg"
+    },
+    {
+      "title": "Smile 2",
+      "genre": "Horror, Mystery",
+      "pgRating": "PG-13",
+      "description": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/ht8Uv9QPv9y7K0RvUyJIaXOZTfd.jpg"
+    },
+    {
+      "title": "Gladiator II",
+      "genre": "Action, Adventure",
+      "pgRating": "PG-13",
+      "description": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg"
+    },
+    {
+      "title": "Spellbound",
+      "genre": "Animation, Fantasy, Family, Adventure, Comedy",
+      "pgRating": "PG-13",
+      "description": "When a powerful spell turns her parents into giant monsters, a teenage princess must journey into the wild to reverse the curse before it's too late.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/xFSIygDiX70Esp9dheCgGX0Nj77.jpg"
+    },
+    {
+      "title": "We Live in Time",
+      "genre": "Romance, Drama, Comedy",
+      "pgRating": "PG-13",
+      "description": "An up-and-coming chef and a recent divorcée find their lives forever changed when a chance encounter brings them together, in a decade-spanning, deeply moving romance.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/oeDNBgnlGF6rnyX1P1K8Vl2f3lW.jpg"
+    },
+    {
+      "title": "Blitz",
+      "genre": "War, Drama, History",
+      "pgRating": "PG-13",
+      "description": "In World War II London, nine-year-old George is evacuated to the countryside by his mother, Rita, to escape the bombings. Defiant and determined to return to his family, George embarks on an epic, perilous journey back home as Rita searches for him.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/e9tyjbF2rugENtBolTtEhHOXgzD.jpg"
+    },
+    {
+      "title": "Alien: Romulus",
+      "genre": "Horror, Science Fiction",
+      "pgRating": "PG-13",
+      "description": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg"
+    },
+    {
+      "title": "Elevation",
+      "genre": "Action, Science Fiction, Thriller",
+      "pgRating": "PG-13",
+      "description": "A single father and two women venture from the safety of their homes to face monstrous creatures to save the life of a young boy.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/uQhYBxOVFU6s9agD49FnGHwJqG5.jpg"
+    },
+    {
+      "title": "The Wild Robot",
+      "genre": "Animation, Science Fiction, Family",
+      "pgRating": "PG-13",
+      "description": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
+    },
+    {
+      "title": "Armor",
+      "genre": "Action, Crime, Thriller",
+      "pgRating": "PG-13",
+      "description": "Armored truck security guard James Brody is working with his son Casey transporting millions of dollars between banks when a team of thieves led by Rook orchestrate a takeover of their truck to seize the riches. Following a violent car chase, Rook soon has the armored truck surrounded and James and Casey find themselves cornered onto a decrepit bridge.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/pnXLFioDeftqjlCVlRmXvIdMsdP.jpg"
+    },
+    {
+      "title": "Here",
+      "genre": "Drama",
+      "pgRating": "PG-13",
+      "description": "An odyssey through time and memory, centered around a place in New England where—from wilderness, and then, later, from a home—love, loss, struggle, hope and legacy play out between couples and families over generations.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/79euHUJJtfgeGU63ef38KtNjXEn.jpg"
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "genre": "Action, Comedy, Science Fiction",
+      "pgRating": "PG-13",
+      "description": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+    },
+    {
+      "title": "The Piano Lesson",
+      "genre": "Drama",
+      "pgRating": "PG-13",
+      "description": "A brother and sister's battle over a prized heirloom piano unleashes haunting truths about how the past is perceived — and who defines a family legacy.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/cgampq63AqCrza6bnvmWqCcvCzY.jpg"
+    },
+    {
+      "title": "Dear Santa",
+      "genre": "Comedy, Fantasy",
+      "pgRating": "PG-13",
+      "description": "Likeable 6th grader Liam writes to Santa asking him to prove that he's real. But Liam is dyslexic and accidentally sends his letter to Satan instead, who shows up at Liam's house, excited to have his first fanboy letter and wanting a little of Liam's soul.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/kYp5C3oIHV98E5NnObCuadLyOml.jpg"
+    },
+    {
+      "title": "Absolution",
+      "genre": "Action, Drama, Crime, Thriller",
+      "pgRating": "PG-13",
+      "description": "An aging ex-boxer gangster working as muscle for a Boston crime boss receives an upsetting diagnosis.  Despite a faltering memory, he attempts to rectify the sins of his past and reconnect with his estranged children. He is determined to leave a positive legacy for his grandson, but the criminal underworld isn’t done with him and won’t loosen their grip willingly.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/cNtAslrDhk1i3IOZ16vF7df6lMy.jpg"
+    },
+    {
+      "title": "Out of My Mind",
+      "genre": "Drama",
+      "pgRating": "PG-13",
+      "description": "Melody Brooks, a sixth grader with cerebral palsy, has a quick wit and a sharp mind, but because she is non-verbal and uses a wheelchair, she is not given the same opportunities as her classmates. When a young educator notices her student's untapped potential and Melody starts to participate in mainstream education, Melody shows that what she has to say is more important than how she says it.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/o8qtMeCskitW5QwSu6O1nP4jN6z.jpg"
+    },
+    {
+      "title": "Gladiator",
+      "genre": "Action, Drama, Adventure",
+      "pgRating": "PG-13",
+      "description": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
+      "year": "2000",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+    },
+    {
+      "title": "The Substance",
+      "genre": "Drama, Horror, Science Fiction",
+      "pgRating": "PG-13",
+      "description": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+      "year": "2024",
+      "imageUrl": "https://image.tmdb.org/t/p/w500/lqoMzCcZYEFK729d6qzt349fB4o.jpg"
+    }
+  ]
+}
