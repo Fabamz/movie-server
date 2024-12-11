@@ -2,7 +2,7 @@ const http = require("http");
 const path = require("path");
 const fs = require("fs");
 require("dotenv").config();
-const { MongoClient} = require("mongodb");
+const { MongoClient, ServerApiVersion} = require("mongodb");
 
 const mimeTypes = {
   ".html": "text/html",
@@ -36,7 +36,13 @@ const server = http.createServer(async (req, res) => {
       const dbname = "movie-suggestion-app";
     
       async function main() {
-      const client = new MongoClient(uri); 
+      const client = new MongoClient(uri, {
+        serverApi: {
+          version: ServerApiVersion.v1,
+          strict: true,
+          deprecationErrors: true,
+        },
+      }); 
       try {
         await client.connect();
         console.log(`connected to the ${dbname} database`);
