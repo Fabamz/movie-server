@@ -2,6 +2,7 @@ const http = require("http");
 const path = require("path");
 const fs = require("fs");
 require("dotenv").config();
+const { MongoClient} = require("mongodb");
 
 const mimeTypes = {
   ".html": "text/html",
@@ -31,40 +32,49 @@ const server = http.createServer(async (req, res) => {
       }
     });
   } else if (url === "/api") {
-    const { MongoClient} = require("mongodb");
-    const uri = process.env.MONGODB_URI;
+      const uri = process.env.MONGODB_URI;
+      const dbname = "movie-suggestion-app";
     
-     async function main() {
-      const client = new MongoClient(uri);
+      async function main() {
+      const client = new MongoClient(uri); 
       try {
         await client.connect();
+        console.log(`connected to the ${dbname} database`);
+
         await fetchMovies(client);    
+      } catch(error){
+        console.error(`Error connecting to the database: ${error}`);
+        res.writeHead(500, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: "Failed to connect to database!" }))
       } finally{
           await client.close();
       }
-    }
+      }
 
-   main().catch(console.error);
+      main();
 
-   async function fetchMovies(client) {
-    const movies = await client.db("movie-suggestion-app").collection("movies").find({});
-    const results = await movies.toArray();
-    console.log(results);
+      async function fetchMovies(client) {
+        try{
+        const movies = await client.db(dbname).collection("movies").find({});
+        const results = await movies.toArray();
+        console.log(results);
 
-    try {
-      res.writeHead(200, { 
+       res.writeHead(200, { 
         "Content-Type": "application/json",
         "Cache-Control": "no-cache" 
     });
-      res.write(JSON.stringify(results));
-    } catch (err) {
+      res.end(JSON.stringify(results));
+    } catch (error) {
+      console.error(`Error fetching movies from database: ${error}`);
       res.writeHead(500, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ error: "Failed to fetch movies" }));
     }
   } 
+
+  
 } else {
     // Serve static files like CSS and images
-    const filePath = path.join(__dirname, "public", path.normalize(url).replace(/^(\.\.[/\\])+/, ""));
+    const filePath = path.join(__dirname, "public", req.url);
     const extname = path.extname(filePath);
     const contentType = mimeTypes[extname] || "application/octet-stream";
 
@@ -85,5 +95,5 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5959;
+const PORT = process.env.PORT;
 server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
